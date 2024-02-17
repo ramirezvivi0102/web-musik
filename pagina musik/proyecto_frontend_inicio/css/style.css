@@ -1,0 +1,195 @@
+
+       /* css index */
+
+    .logo{ display:block; height:50px; width: 50px; }
+
+    body {
+        font-family: Arial, Helvetica, Verdana, sans-serif;
+        font-size: 16px;
+      }
+
+      p {
+        font-family: Georgia, Times, "Times New Roman", serif;
+      }
+
+      .text-justify {
+        text-align: left; /* Remove unnecessary justification */
+      }
+
+      p {
+      widows: 100%;
+	  	max-width:600px;
+		  padding:5px 5px;
+		  font-size: 1rem;
+      word-wrap: break-word;
+    
+      }
+
+       h1 {
+        widows: 100%;
+		    max-width:600px;
+        padding:10px 10px;
+        font-weight: bold;
+        font-size: 1.25rem;
+        word-wrap: break-word;
+      
+      }
+      /* css del carrusel */
+
+      .container-car {
+        background-color: #C0C0C0;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px; /* Adjust padding based on screen size */
+        justify-content: center;
+        word-wrap: break-word;
+      }
+    @media (max-width: 768px) {
+      .container-car {
+        padding: 20px;
+      }
+    
+      h1, p {
+        font-size: 1rem;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      /* Additional adjustments for even smaller screens */
+    }
+    @media (max-width: 768px) {
+      .c1, .c2 {
+        width: 100%; /* Display columns one below another */
+      }
+    }
+    .c1 {
+      margin: 0 auto;
+      width: 100%; /* Remove fixed width */
+      height: 300px;
+      padding: 20px 40px 20px 40px;
+      font-size: 0 auto;
+    }
+    
+    .c2 {
+      margin: 0 auto;
+      width: 100%; /* Remove fixed width */
+      height: 300px;
+    }
+    
+    /* css del login*/
+
+    .container-sesionInicio {
+      padding: 20px; /* Add some padding for better spacing */
+      max-width: 400px; /* Set a maximum width for responsiveness */
+      margin: 0 auto; /* Center the form horizontally */
+    }
+
+      /* css de canciones */
+      .container-can{
+        justify-content:center;
+        background-color:#DBE0E3 ;
+        width: 80%;
+        margin:0 auto;
+        padding: 5px 10px 5px  10px;
+        word-wrap: break-word;
+        overflow: hidden;
+      }
+
+        .c5 {
+          margin:10px 0px 0px 0px;
+          padding: 20px 20px 20px  20px;
+          color: black;
+          background-color: #E6EBE0;
+          word-wrap: break-word;
+        
+        }
+
+        .c6 {
+          margin:0px 0px 10px 0px;
+          padding: 20px 20px 20px  20px;
+          color: black;
+          background-color: #F4F1BB;
+         
+        
+        }
+
+         .c6, .c5 {
+          width: 100%;
+          
+        }
+
+        @media (min-width: 768px) {
+
+          .c5, .c6 {
+            width: 100%;
+            
+          }
+          body {
+            font-size: 14px;
+        }
+        }
+        @media (min-width: 768px) {
+
+           .c5, .c6 {
+            width: 100%;
+            
+          }
+          body {
+            font-size: 14px;
+        }
+
+        }
+
+
+      audio{
+        padding-top: 10px;
+        width: 100%;
+        margin: auto;
+        display: block;
+      }
+
+	  td{
+		font-weight: bold;
+		color:#3339FF;
+	  }
+
+       /* css de registro */
+       .container-registro {
+        max-width: 500px; /* Set a maximum width for responsiveness */
+        margin: 0 auto; /* Center horizontally */
+        padding: 20px; /* Add some padding for spacing */
+      }
+  
+      .form-group {
+        margin-bottom: 15px; /* Add spacing between fields */
+      }
+  
+      .form-control {
+        display: block; /* Ensure input fields span the full width */
+        width: 100%;
+        padding: 10px 15px; /* Adjust padding for a better look */
+        border: 1px solid #ccc;
+        border-radius: 4px; /* Add rounded corners */
+      }
+  
+      .error {
+        color: red;
+        font-size: 0.8rem; /* Make error messages smaller */
+        margin-top: 5px;
+      }
+      /* css de inicio de secion*/
+      .form-control {
+        display: block; 
+        width: 100%;
+        padding: 10px 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px; 
+      }
+
+      .error {
+        color: red;
+        font-size: 0.8rem; /* Make error messages smaller */
+        margin-top: 5px;
+      }
+
+
